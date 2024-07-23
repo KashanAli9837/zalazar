@@ -26,5 +26,8 @@ function typeWriter() {
     i++;
     setTimeout(typeWriter, speed);
   }
+  if (txt.length - 1 === i) {
+    element.style.border = "none";
+  }
 }
 typeWriter();
