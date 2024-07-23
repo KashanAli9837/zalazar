@@ -574,8 +574,8 @@ video {
   top: -20%;
 }
 
-.bottom-\[5\%\] {
-  bottom: 5%;
+.bottom-\[4\%\] {
+  bottom: 4%;
 }
 
 .left-\[15\%\] {
@@ -594,8 +594,8 @@ video {
   right: 12%;
 }
 
-.right-\[5\%\] {
-  right: 5%;
+.right-\[8\%\] {
+  right: 8%;
 }
 
 .top-0 {
@@ -610,48 +610,8 @@ video {
   top: 4%;
 }
 
-.right-\[\] {
-  right: ;
-}
-
-.right-\[8\%\] {
-  right: 8%;
-}
-
-.bottom-\[3\%\] {
-  bottom: 3%;
-}
-
-.right-\[10\%\] {
-  right: 10%;
-}
-
-.bottom-\[4\%\] {
-  bottom: 4%;
-}
-
 .z-\[1999\] {
   z-index: 1999;
-}
-
-.z-\[\] {
-  z-index: ;
-}
-
-.z-\[10\] {
-  z-index: 10;
-}
-
-.z-\[109\] {
-  z-index: 109;
-}
-
-.z-\[1099\] {
-  z-index: 1099;
-}
-
-.z-\[1000\] {
-  z-index: 1000;
 }
 
 .z-\[1\] {
@@ -702,6 +662,10 @@ video {
   display: inline-flex;
 }
 
+.h-\[17vw\] {
+  height: 17vw;
+}
+
 .h-\[30\%\] {
   height: 30%;
 }
@@ -716,10 +680,6 @@ video {
 
 .h-\[50px\] {
   height: 50px;
-}
-
-.h-\[5vw\] {
-  height: 5vw;
 }
 
 .h-\[80px\] {
@@ -742,36 +702,16 @@ video {
   height: 100vh;
 }
 
-.h-\[8vw\] {
-  height: 8vw;
-}
-
-.h-\[10vw\] {
-  height: 10vw;
-}
-
-.h-\[11vw\] {
-  height: 11vw;
-}
-
-.h-\[12vw\] {
-  height: 12vw;
-}
-
-.h-\[15vw\] {
-  height: 15vw;
-}
-
-.h-\[17vw\] {
-  height: 17vw;
-}
-
 .w-8 {
   width: 2rem;
 }
 
 .w-\[15px\] {
   width: 15px;
+}
+
+.w-\[17vw\] {
+  width: 17vw;
 }
 
 .w-\[20px\] {
@@ -790,10 +730,6 @@ video {
   width: 45px;
 }
 
-.w-\[5vw\] {
-  width: 5vw;
-}
-
 .w-\[70\%\] {
   width: 70%;
 }
@@ -808,30 +744,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[8vw\] {
-  width: 8vw;
-}
-
-.w-\[10vw\] {
-  width: 10vw;
-}
-
-.w-\[11vw\] {
-  width: 11vw;
-}
-
-.w-\[12vw\] {
-  width: 12vw;
-}
-
-.w-\[15vw\] {
-  width: 15vw;
-}
-
-.w-\[17vw\] {
-  width: 17vw;
 }
 
 .flex-1 {
@@ -906,10 +818,6 @@ video {
 
 .gap-\[2vw\] {
   gap: 2vw;
-}
-
-.gap-\[5\%\] {
-  gap: 5%;
 }
 
 .overflow-hidden {
@@ -1100,16 +1008,12 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:right-\[5\%\] {
-    right: 5%;
-  }
-
   .md\:bottom-\[5\%\] {
     bottom: 5%;
   }
 
-  .md\:right-\[10\%\] {
-    right: 10%;
+  .md\:right-\[5\%\] {
+    right: 5%;
   }
 
   .md\:ml-0 {
@@ -1124,6 +1028,10 @@ body {
     height: 7rem;
   }
 
+  .md\:h-\[12vw\] {
+    height: 12vw;
+  }
+
   .md\:h-\[35\%\] {
     height: 35%;
   }
@@ -1136,20 +1044,16 @@ body {
     height: 60px;
   }
 
-  .md\:h-\[8vw\] {
-    height: 8vw;
-  }
-
-  .md\:h-\[12vw\] {
-    height: 12vw;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
   }
 
   .md\:w-10 {
     width: 2.5rem;
+  }
+
+  .md\:w-\[12vw\] {
+    width: 12vw;
   }
 
   .md\:w-\[350px\] {
@@ -1168,24 +1072,16 @@ body {
     width: 80%;
   }
 
-  .md\:w-\[8vw\] {
-    width: 8vw;
-  }
-
-  .md\:w-\[12vw\] {
-    width: 12vw;
-  }
-
   .md\:justify-between {
     justify-content: space-between;
   }
 
-  .md\:gap-8 {
-    gap: 2rem;
-  }
-
   .md\:gap-0 {
     gap: 0px;
+  }
+
+  .md\:gap-8 {
+    gap: 2rem;
   }
 
   .md\:px-\[3\%\] {
@@ -1276,6 +1172,10 @@ body {
     height: 50px;
   }
 
+  .lg\:h-\[6vw\] {
+    height: 6vw;
+  }
+
   .lg\:h-auto {
     height: auto;
   }
@@ -1284,20 +1184,12 @@ body {
     height: 100%;
   }
 
-  .lg\:h-\[5vw\] {
-    height: 5vw;
-  }
-
-  .lg\:h-\[8vw\] {
-    height: 8vw;
-  }
-
-  .lg\:h-\[6vw\] {
-    height: 6vw;
-  }
-
   .lg\:w-1\/2 {
     width: 50%;
+  }
+
+  .lg\:w-\[6vw\] {
+    width: 6vw;
   }
 
   .lg\:w-\[80\%\] {
@@ -1310,22 +1202,6 @@ body {
 
   .lg\:w-auto {
     width: auto;
-  }
-
-  .lg\:w-\[5vw\] {
-    width: 5vw;
-  }
-
-  .lg\:w-\[\] {
-    width: ;
-  }
-
-  .lg\:w-\[8vw\] {
-    width: 8vw;
-  }
-
-  .lg\:w-\[6vw\] {
-    width: 6vw;
   }
 
   .lg\:flex-row {
@@ -1418,12 +1294,12 @@ body {
     height: 50%;
   }
 
-  .xl\:h-\[72px\] {
-    height: 72px;
-  }
-
   .xl\:h-\[5vw\] {
     height: 5vw;
+  }
+
+  .xl\:h-\[72px\] {
+    height: 72px;
   }
 
   .xl\:w-12 {
@@ -1434,16 +1310,16 @@ body {
     width: 20px;
   }
 
+  .xl\:w-\[5vw\] {
+    width: 5vw;
+  }
+
   .xl\:w-\[60px\] {
     width: 60px;
   }
 
   .xl\:w-\[80\%\] {
     width: 80%;
-  }
-
-  .xl\:w-\[5vw\] {
-    width: 5vw;
   }
 
   .xl\:gap-10 {
