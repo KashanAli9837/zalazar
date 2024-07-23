@@ -674,8 +674,8 @@ video {
   width: 20px;
 }
 
-.w-\[350px\] {
-  width: 350px;
+.w-\[250px\] {
+  width: 250px;
 }
 
 .w-\[70\%\] {
@@ -1023,6 +1023,10 @@ body {
 @media (min-width: 1024px) {
   .lg\:static {
     position: static;
+  }
+
+  .lg\:mr-\[5\%\] {
+    margin-right: 5%;
   }
 
   .lg\:mt-0 {
