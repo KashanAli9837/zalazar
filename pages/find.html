@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="/CSS/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="w-full h-screen flex flex-col overflow-hidden">
+      <header
+        class="w-full flex items-center justify-between px-[6%] lg:px-[3%] py-6 md:py-8 lg:py-4 xl:py-6"
+      >
+        <img
+          src="../assets/header/logo.png"
+          alt="logo"
+          class="h-[80px] md:h-28 lg:h-24 xl:h-28"
+        />
+        <nav
+          class="lg:mr-[5%] fixed top-0 -left-[350px] bg-neutral-100 lg:bg-transparent h-full w-[280px] md:w-[350px] lg:h-auto lg:w-auto lg:static duration-300 shadow-[0_8px_24px_0_rgba(149, 157, 165, 0.2)] lg:shadow-none z-[1999]"
+        >
+          <img
+            src="../assets/header/close.svg"
+            alt="cross icon"
+            class="cross_icon absolute top-[4%] right-[12%] w-[20px] lg:hidden"
+          />
+          <ul
+            class="flex flex-col lg:flex-row items-start lg:items-center gap-10 lg:gap-8 xl:gap-10 text-base md:text-[22px] pl-[50px] lg:text-[15px] xl:text-base mt-[150px] md:mt-[120px] lg:mt-0"
+          >
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="./about.html"> About Us </a>
+            </li>
+            <li>
+              <a href="./products.html">Products</a>
+            </li>
+            <li>
+              <a href="./profile.html">Company Profile</a>
+            </li>
+            <li class="border-b-2 border-[red]">
+              <a href="">Find Us</a>
+            </li>
+          </ul>
+        </nav>
+        <img
+          src="../assets/header/menu.svg"
+          alt="menu icon"
+          class="menu_icon mr-[5%] lg:hidden"
+        />
+      </header>
+
+      <div class="w-full flex-1 flex flex-col lg:flex-row justify-center items-center px-[5%] md:px-[8%] xl:px-[10%]">
+        <div class="w-full lg:w-1/2 h-full flex flex-col justify-center items-start gap-4 pl-[10%] md:pl-0">
+          <div class="w-fit mb-2 xl:mb-3">
+            <h2 class="text-2xl xl:text-3xl font-bold uppercase">Head Office</h2>
+            <div class="w-[75%] h-1 bg-black"></div>
+          </div>
+          <div>
+            <h3 class="text-[red] font-semibold text-[15px] xl:text-base">Mailing Address:</h3>
+            <p class="text-xs xl:text-base">Zalazar Engineering</p>
+            <p class="text-xs xl:text-base">Opposite Commerce College</p>
+            <p class="text-xs xl:text-base">Kot Momin Road, Bhalwal</p>
+            <p class="text-xs xl:text-base">Sargodha, Pakistan.</p>
+          </div>
+          <div class="flex">
+            <h3 class="text-[red] font-semibold text-[15px] xl:text-base">Postal Code:</h3>
+            &nbsp; &nbsp;
+            <p class="text-xs xl:text-base">40410 - Bhalwal</p>
+          </div>
+          <div>
+            <h3 class="text-[red] font-semibold text-[15px] xl:text-base">Telephone:</h3>
+            <p class="text-xs xl:text-base">+92 300 9603209</p>
+            <p class="text-xs xl:text-base">+92 300 6038093</p>
+            <p class="text-xs xl:text-base">+92 300 6017326</p>
+          </div>
+          <div class="flex">
+            <h3 class="text-[red] font-semibold text-[15px] xl:text-base">Email:</h3>
+            &nbsp; &nbsp;
+            <p class="text-xs xl:text-base">zalazargroup@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="w-full lg:w-1/2 h-full flex justify-center items-start md:items-center">
+          <div class="w-full h-[250px] md:h-[350px] xl:h-[400px]">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3374.476647279467!2d72.90565757446028!3d32.24525541097364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392197f1ad3d381d%3A0x70df87ebc64be148!2sZalazar%20Engineering!5e0!3m2!1sen!2s!4v1721762222288!5m2!1sen!2s" class="border-none w-full h-full rounded-xl shadow-[0_7px_29px_0_rgba(100, 100, 111, 0.2)]" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../logics/menu.js"></script>
+  </body>
 </html>
