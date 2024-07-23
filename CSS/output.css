@@ -638,14 +638,6 @@ video {
   display: inline-flex;
 }
 
-.h-\[100px\] {
-  height: 100px;
-}
-
-.h-\[315px\] {
-  height: 315px;
-}
-
 .h-\[40\%\] {
   height: 40%;
 }
@@ -658,6 +650,14 @@ video {
   height: 50px;
 }
 
+.h-\[80px\] {
+  height: 80px;
+}
+
+.h-\[85\%\] {
+  height: 85%;
+}
+
 .h-full {
   height: 100%;
 }
@@ -666,32 +666,8 @@ video {
   height: 100vh;
 }
 
-.h-\[90px\] {
-  height: 90px;
-}
-
-.h-\[80px\] {
-  height: 80px;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[80\%\] {
-  height: 80%;
-}
-
-.h-\[85\%\] {
-  height: 85%;
-}
-
-.w-\[12px\] {
-  width: 12px;
+.w-\[15px\] {
+  width: 15px;
 }
 
 .w-\[20px\] {
@@ -702,16 +678,8 @@ video {
   width: 300px;
 }
 
-.w-\[350px\] {
-  width: 350px;
-}
-
 .w-\[70\%\] {
   width: 70%;
-}
-
-.w-\[80\%\] {
-  width: 80%;
 }
 
 .w-\[85\%\] {
@@ -724,26 +692,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[14px\] {
-  width: 14px;
-}
-
-.w-\[1px\] {
-  width: 1px;
-}
-
-.w-\[15px\] {
-  width: 15px;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
-.w-\[\] {
-  width: ;
 }
 
 .flex-1 {
@@ -890,38 +838,16 @@ video {
   font-size: 14px;
 }
 
-.text-\[24px\] {
-  font-size: 24px;
-}
-
-.text-\[45px\] {
-  font-size: 45px;
-}
-
-.text-\[60px\] {
-  font-size: 60px;
-}
-
-.text-\[8px\] {
-  font-size: 8px;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-\[13px\] {
-  font-size: 13px;
-}
-
 .text-\[28px\] {
   font-size: 28px;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-\[47px\] {
+  font-size: 47px;
+}
+
+.text-\[60px\] {
+  font-size: 60px;
 }
 
 .text-base {
@@ -929,8 +855,9 @@ video {
   line-height: 1.5rem;
 }
 
-.text-\[50px\] {
-  font-size: 50px;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -965,10 +892,6 @@ video {
 .text-blue-700 {
   --tw-text-opacity: 1;
   color: rgb(29 78 216 / var(--tw-text-opacity));
-}
-
-.text-\[50p\] {
-  color: 50p;
 }
 
 .duration-300 {
@@ -1041,16 +964,16 @@ body {
     width: 50%;
   }
 
-  .md\:w-\[15px\] {
-    width: 15px;
-  }
-
   .md\:w-\[350px\] {
     width: 350px;
   }
 
   .md\:w-\[65\%\] {
     width: 65%;
+  }
+
+  .md\:w-\[80\%\] {
+    width: 80%;
   }
 
   .md\:gap-8 {
@@ -1079,10 +1002,6 @@ body {
 
   .md\:text-\[10px\] {
     font-size: 10px;
-  }
-
-  .md\:text-\[13px\] {
-    font-size: 13px;
   }
 
   .md\:text-\[22px\] {
