@@ -8,7 +8,6 @@ menu_icon.addEventListener("click", () => {
   } else {
     nav.style.left = "0px";
   }
-  console.log(nav.style.left);
 });
 
 cross_icon.addEventListener("click", () => {
