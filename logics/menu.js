@@ -19,8 +19,9 @@ overlay.addEventListener("click", () => {
 function toggleMenu() {
   if (nav.style.left === "0px") {
     nav.style.left = "-400px";
+    overlay.style.opacity = '0';
   } else {
     nav.style.left = "0px";
+    overlay.style.opacity = '1';
   }
-  overlay.classList.toggle('hidden');
 }
