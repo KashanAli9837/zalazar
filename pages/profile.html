@@ -113,9 +113,11 @@
             >
               <i class="ri-download-line"></i>
             </span>
-            <p class="text-zinc-900 text-sm xl:text-base font-medium profile_text">
-              Click to <span class="font-semibold">download</span> our
-              Company's Profile
+            <p
+              class="text-zinc-900 text-sm xl:text-base font-medium profile_text"
+            >
+              Click to <span class="font-semibold">download</span> our Company's
+              Profile
             </p>
           </a>
         </div>
@@ -126,12 +128,14 @@
     <script src="../logics/loader.js"></script>
 
     <script>
-      const profileBtn = document.querySelector('.profile_btn');
-      const profileTxt = document.querySelector('.profile_text');
+      const profileBtn = document.querySelector(".profile_btn");
+      const profileTxt = document.querySelector(".profile_text");
 
-      profileBtn.addEventListener('click', (e) => {
-        profileTxt.innerText = "Download has been started!"
-      })
+      if (window.innerWidth > 1024) {
+        profileBtn.addEventListener("click", (e) => {
+          profileTxt.innerText = "Wait!!!";
+        });
+      }
     </script>
   </body>
 </html>
