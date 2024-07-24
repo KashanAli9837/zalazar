@@ -630,6 +630,14 @@ video {
   top: 4%;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
 .z-\[1999\] {
   z-index: 1999;
 }
@@ -830,6 +838,10 @@ video {
 
 .w-7 {
   width: 1.75rem;
+}
+
+.w-\[200px\] {
+  width: 200px;
 }
 
 .flex-1 {
