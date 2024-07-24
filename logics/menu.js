@@ -4,12 +4,12 @@ const nav = document.querySelector("nav");
 
 menu_icon.addEventListener("click", () => {
   if (nav.style.left === "0px") {
-    nav.style.left = "-350px";
+    nav.style.left = "-400px";
   } else {
     nav.style.left = "0px";
   }
 });
 
 cross_icon.addEventListener("click", () => {
-  nav.style.left = "-350px";
+  nav.style.left = "-400px";
 });
