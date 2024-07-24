@@ -1,30 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../CSS/output.css">
+    <link rel="stylesheet" href="../CSS/output.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-</head>
-<body>
-  <div class="w-full h-screen fixed top-0 left-0 z-[9999] bg-white flex justify-center items-center loader">
-    <img src="../assets/loader.gif" alt="loader">
-  </div>
-  
-  <div class="fixed bottom-[4%] md:bottom-[5%] right-[8%] md:right-[5%] z-[2] rounded-full overflow-hidden">
-    <a href="https://api.whatsapp.com/send?phone=923009603209" target="_blank" class="z-[3]">
-      <img src="../assets/svgs/whatsapp.png" alt="whatsapp img" class="w-[17vw] md:w-[12vw] lg:w-[6vw] xl:w-[5vw] h-[17vw] md:h-[12vw] lg:h-[6vw] xl:h-[5vw] animate-blink z-[5]">
-    </a>
-  </div>
+  </head>
+  <body>
+    <div
+      class="w-full h-screen fixed top-0 left-0 z-[9999] bg-white flex justify-center items-center loader"
+    >
+      <img src="../assets/loader.gif" alt="loader" />
+    </div>
+
+    <div
+      class="fixed bottom-[4%] md:bottom-[5%] right-[8%] md:right-[5%] z-[2] rounded-full overflow-hidden"
+    >
+      <a
+        href="https://api.whatsapp.com/send?phone=923009603209"
+        target="_blank"
+        class="z-[3]"
+      >
+        <img
+          src="../assets/svgs/whatsapp.png"
+          alt="whatsapp img"
+          class="w-[17vw] md:w-[12vw] lg:w-[6vw] xl:w-[5vw] h-[17vw] md:h-[12vw] lg:h-[6vw] xl:h-[5vw] animate-blink z-[5]"
+        />
+      </a>
+    </div>
+
+    <div
+      class="fixed top-0 left-0 w-full h-full bg-neutral-800/40 z-[1000] overlay hidden"
+    ></div>
 
     <div>
-        <header
+      <header
         class="w-full flex items-center justify-between px-[6%] lg:px-[3%] py-6 md:py-8 lg:py-4 xl:py-6"
       >
         <img
@@ -33,15 +49,22 @@
           class="h-[80px] md:h-28 lg:h-24 xl:h-28"
         />
         <nav
-          class="lg:mr-[5%] fixed top-0 -left-[350px] bg-neutral-100 lg:bg-transparent h-full w-[280px] md:w-[350px] lg:h-auto lg:w-auto lg:static duration-300 shadow-[0_8px_24px_0_rgba(149, 157, 165, 0.2)] lg:shadow-none z-[1999]"
+          class="lg:mr-[5%] fixed top-0 -left-[350px] bg-neutral-100 lg:bg-transparent h-full w-[80%] md:w-[350px] lg:h-auto lg:w-auto lg:static duration-300 shadow-[0_8px_24px_0_rgba(149, 157, 165, 0.2)] lg:shadow-none z-[1999]"
         >
-          <img
+          <!-- <img
             src="../assets/header/close.svg"
             alt="cross icon"
             class="cross_icon absolute top-[4%] right-[12%] w-[20px] lg:hidden"
-          />
+          /> -->
+          <div
+            class="lg:hidden py-[10%] flex justify-center items-center border-b-4 border-zinc-500"
+          >
+            <h3 class="text-xl font-semibold tracking-wide text-zinc-700">
+              MENU
+            </h3>
+          </div>
           <ul
-            class="flex flex-col lg:flex-row items-start lg:items-center gap-10 lg:gap-8 xl:gap-10 text-base md:text-[22px] pl-[50px] lg:text-sm xl:text-base mt-[150px] md:mt-[120px] lg:mt-0"
+            class="flex flex-col lg:flex-row items-start lg:items-center gap-10 lg:gap-8 xl:gap-10 text-base md:text-[22px] pl-[50px] lg:text-sm xl:text-base mt-[80px] md:mt-[120px] lg:mt-0"
           >
             <li>
               <a href="/zalazar">Home</a>
@@ -49,8 +72,11 @@
             <li>
               <a href="/zalazar/pages/about.html"> About Us </a>
             </li>
-            <li class="border-b-2 border-[red]">
+            <li>
               <a href="/zalazar/pages/products.html">Products</a>
+              <div
+                class="mt-1 w-full h-[3px] lg:h-[2px] rounded-full bg-red-500"
+              ></div>
             </li>
             <li>
               <a href="/zalazar/pages/profile.html">Company Profile</a>
@@ -70,5 +96,5 @@
 
     <script src="../logics/menu.js"></script>
     <script src="../logics/loader.js"></script>
-</body>
+  </body>
 </html>
