@@ -90,7 +90,7 @@
           class="flex flex-col justify-center items-center gap-8 bg-neutral-300 h-fit w-full md:w-[460px] xl:w-[500px] px-8 md:px-12 py-16 md:py-20 lg:py-16 rounded-md mb-[20%] lg:mb-0"
         >
           <a
-            href="https://drive.google.com/file/d/1xunyX787Ca0m45fMh-OPzrdG6crvnzj_/view"
+            href="https://drive.google.com/file/d/1a56p5NamzWuOUldFqOHlvmmu4KMoJNDB/view?usp=drive_link"
             target="_blank"
             class="bg-white w-full py-4 pl-6 pr-12 relative rounded-lg hidden lg:block"
           >
@@ -105,7 +105,7 @@
             </p>
           </a>
           <a
-            href="https://drive.google.com/uc?export=download&id=1xunyX787Ca0m45fMh-OPzrdG6crvnzj_"
+            href="https://drive.google.com/uc?export=download&id=1a56p5NamzWuOUldFqOHlvmmu4KMoJNDB"
             class="w-full bg-white py-4 pl-6 pr-12 relative rounded-lg profile_btn hidden lg:block"
           >
             <span
@@ -121,16 +121,21 @@
             </p>
           </a>
           <a
-            href="https://drive.google.com/file/d/1xunyX787Ca0m45fMh-OPzrdG6crvnzj_/view"
-            class="w-full bg-white py-4 pl-6 pr-12 relative rounded-lg profile_btn"
+            href="https://drive.google.com/file/d/1a56p5NamzWuOUldFqOHlvmmu4KMoJNDB/view?usp=drive_link"
+            target="_blank"
+            class="w-full bg-white py-4 pl-6 pr-12 relative rounded-lg profile_btn lg:hidden"
           >
-            <p
-              class="text-zinc-900 text-sm xl:text-base font-medium profile_text lg:hidden"
+            <span
+              class="animate-bounce-right lg:animate-none absolute right-[3%] top-[28%] px-2 py-1 bg-neutral-200 rounded-full"
             >
-              Click to &nbsp; <i class="ri-eye-line"></i>
+              <i class="ri-arrow-right-s-line"></i>
+            </span>
+            <p
+              class="text-zinc-900 text-sm xl:text-base font-medium profile_text"
+            >
+              Click to
               <span class="font-semibold">view</span> &
-              <i class="ri-download-line"></i>
-              <span class="font-semibold">download</span> &nbsp; our Company's Profile
+              <span class="font-semibold">download</span> our Company's Profile
             </p>
           </a>
         </div>
@@ -144,11 +149,9 @@
       const profileBtn = document.querySelector(".profile_btn");
       const profileTxt = document.querySelector(".profile_text");
 
-      if (window.innerWidth >= 1024) {
         profileBtn.addEventListener("click", (e) => {
           profileTxt.innerText = "Wait!!!";
         });
-      }
     </script>
   </body>
 </html>
