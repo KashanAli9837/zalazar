@@ -14,14 +14,19 @@ menu_icon.addEventListener("click", () => {
 
 overlay.addEventListener("click", () => {
   toggleMenu();
-})
+});
 
 function toggleMenu() {
+  overlay.classList.remove("hidden");
+
   if (nav.style.left === "0px") {
     nav.style.left = "-400px";
-    overlay.style.opacity = '0';
+    overlay.style.opacity = "0";
+    setTimeout(() => {
+      overlay.classList.add("hidden");
+    }, 300);
   } else {
     nav.style.left = "0px";
-    overlay.style.opacity = '1';
+    overlay.style.opacity = "1";
   }
 }
